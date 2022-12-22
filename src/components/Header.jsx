@@ -10,7 +10,7 @@ export const Header = () => {
                     <Link to='/' >User.az</Link>
                 </div>
                 <div className="col-lg-10 col-11 right">
-                    <Link to='/add' >Add User</Link>
+                    <Link to='/admin' className='mx-5' >Admin</Link>
                 </div>
             </div>
         </div>

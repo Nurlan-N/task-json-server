@@ -19,21 +19,15 @@
       "email": "Aqil@gmail.com"
     },
     {
-      "id": 4,
-      "name": "Leyla Kərimli",
-      "phone": "055-555-55-55",
-      "email": "Orxan@gmail.com"
-    },
-    {
       "name": "Uğur Nəzərov",
       "phone": "055-555-55-55",
       "email": "Ugur@gmail.com",
       "id": 5
     },
     {
-      "name": "Aysun Aliyeva",
-      "phone": "0777777777",
-      "email": "Aysun@gmail.com",
+      "name": "Leyla Veliyeva",
+      "phone": "0774586977",
+      "email": "Leyla@gmail.com",
       "id": 6
     }
   ]

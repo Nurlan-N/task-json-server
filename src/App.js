@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios'
 import { useState, useEffect} from 'react';
 import DotLoader from 'react-spinners/DotLoader'
+import { UserHomePage } from './pages/UserHomePage';
 
 const override: CSSProperties = {
   display: "block",
@@ -47,7 +48,8 @@ function App() {
          
         /> :  
         <Routes>
-          <Route path='/' element={<HomePage userList={users}/>}/>
+          <Route path='/' element={<UserHomePage userList={users} />} />
+          <Route path='/admin' element={<HomePage userList={users}/>}/>
           <Route path='/add' element={<AddUser/>}/>
         </Routes>
          }
